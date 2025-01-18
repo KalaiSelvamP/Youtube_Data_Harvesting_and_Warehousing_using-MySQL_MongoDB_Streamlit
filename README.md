@@ -25,18 +25,26 @@ MySQL is an open-source relational database management system known for its spee
 REQUIRED LIBRARIES :
 
 1.googleapiclient.discovery
+
 2.streamlit
+
 3.mysql
+
 4.pymongo
+
 5.pandas
 
 
 FEATURES :
 
 Data Retrieval: Retrieve YouTube channel and video data via the YouTube Data API.
+
 Data Storage: Store retrieved data in a MongoDB database (data lake) for flexible and scalable storage.
+
 Data Migration: Migrate data from MongoDB to a MySQL database for more efficient querying and analysis.
+
 Data Search and Retrieval: Use SQL queries to search and retrieve YouTube data from the MySQL database, offering various search options.
+
 
 
 Overall, the code provides a full cycle of data handling, starting from extraction from YouTube, warehousing in MongoDB, transformation, then moving to MySQL, and finally, offering a querying interface through Streamlit.
