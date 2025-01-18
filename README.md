@@ -50,7 +50,7 @@ Create a Streamlit application that allows users to access and analyze data from
    Use SQL queries to search and retrieve YouTube data from the MySQL database, offering various search options.
 
 
-## WorlfLow Overview
+## Workflow Overview
 
 1. **Extract Data**  
    Extract data from YouTube using the YouTube Data API.
@@ -64,6 +64,5 @@ Create a Streamlit application that allows users to access and analyze data from
 4. **Analyze Data**  
    Provide a user-friendly interface using Streamlit for data analysis and visualization.
 
----
 
 Overall, the code provides a full cycle of data handling, starting from extraction from YouTube, warehousing in MongoDB, transformation, then moving to MySQL, and finally, offering a querying interface through Streamlit.
