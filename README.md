@@ -1,7 +1,6 @@
 # YouTube Data Harvesting and Warehousing using MySQL, MongoDB, and Streamlit
 
-## LinkedIn Profile
-[Kalai Selvam](https://www.linkedin.com/in/kalai-selvam-55428126a)
+LinkedIn Profile : [Kalai Selvam](https://www.linkedin.com/in/kalai-selvam-55428126a)
 
 ## Problem Statement
 Create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
@@ -29,12 +28,11 @@ Create a Streamlit application that allows users to access and analyze data from
 
 ## Required Libraries
 
-```bash
-pip install google-api-python-client
-pip install streamlit
-pip install mysql-connector-python
-pip install pymongo
-pip install pandas
+- pip install google-api-python-client
+- pip install streamlit
+- pip install mysql-connector-python
+- pip install pymongo
+- pip install pandas
 
 
 ## Features
