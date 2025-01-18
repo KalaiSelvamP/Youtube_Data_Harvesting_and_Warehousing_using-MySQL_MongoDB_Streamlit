@@ -2,9 +2,9 @@
 
 Linked in URL : https://www.linkedin.com/in/kalai-selvam-55428126a
 
-Problem Statement: The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
+Problem Statement: Create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
 
-TOOLS AND LIBRARIES USED
+TOOLS AND LIBRARIES USED :
 
 1. Streamlit
 Streamlit library was used to create a user-friendly UI that enables users to interact with the programme and carry out data retrieval and analysis operations.
@@ -22,17 +22,16 @@ MongoDB is built on a scale-out architecture that has become popular with develo
 MySQL is an open-source relational database management system known for its speed, reliability, and ease of use. It is widely used for managing structured data in a wide range of applications, from small websites to large-scale enterprise solutions. MySQL supports a variety of data types, offers efficient indexing, and provides a powerful query language (SQL) for data manipulation.
 
 
-REQUIRED LIBRARIES
+REQUIRED LIBRARIES :
 
-googleapiclient.discovery
-streamlit
-mysql
-pymongo
-pandas
+1.googleapiclient.discovery
+2.streamlit
+3.mysql
+4.pymongo
+5.pandas
 
 
-
-FEATURES
+FEATURES :
 
 Data Retrieval: Retrieve YouTube channel and video data via the YouTube Data API.
 Data Storage: Store retrieved data in a MongoDB database (data lake) for flexible and scalable storage.
