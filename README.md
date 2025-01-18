@@ -1,50 +1,71 @@
-# Youtube_Data_Harvesting_and_Warehousing_using-MySQL_MongoDB_Streamlit
+# YouTube Data Harvesting and Warehousing using MySQL, MongoDB, and Streamlit
 
-Linked in URL : https://www.linkedin.com/in/kalai-selvam-55428126a
+## LinkedIn Profile
+[Kalai Selvam](https://www.linkedin.com/in/kalai-selvam-55428126a)
 
-Problem Statement: Create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
+## Problem Statement
+Create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
 
-TOOLS AND LIBRARIES USED :
+---
 
-1. Streamlit
-Streamlit library was used to create a user-friendly UI that enables users to interact with the programme and carry out data retrieval and analysis operations.
+## Tools and Libraries Used
 
-3. Python
-Python is a powerful programming language renowned for being easy to learn and understand. Python is the primary language employed in this project for the development of the complete application, including data retrieval, processing, analysis, and visualisation.
+1. **Streamlit**  
+   Streamlit was used to create a user-friendly UI for interacting with the application and performing data retrieval and analysis.
 
-4. Google API Client
-The googleapiclient library in Python facilitates the communication with different Google APIs. Its primary purpose in this project is to interact with YouTube's Data API v3, allowing the retrieval of essential information like channel details, video specifics, and comments. By utilizing googleapiclient, developers can easily access and manipulate YouTube's extensive data resources through code.
+2. **Python**  
+   Python, known for its simplicity and versatility, is the primary language used for developing this application, including data retrieval, processing, analysis, and visualization.
 
-5. MongoDB
-MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas. As a document database, MongoDB makes it easy for developers to store structured or unstructured data. It uses a JSON-like format to store documents.
+3. **Google API Client**  
+   The `googleapiclient` library facilitates interaction with YouTube Data API v3, enabling the retrieval of channel details, video specifics, and comments.
 
-6. MySQL
-MySQL is an open-source relational database management system known for its speed, reliability, and ease of use. It is widely used for managing structured data in a wide range of applications, from small websites to large-scale enterprise solutions. MySQL supports a variety of data types, offers efficient indexing, and provides a powerful query language (SQL) for data manipulation.
+4. **MongoDB**  
+   MongoDB, a document database, is used for flexible and scalable storage of structured and unstructured data in a JSON-like format.
 
+5. **MySQL**  
+   MySQL, an open-source relational database management system, is used for managing structured data efficiently and supporting powerful SQL queries.
 
-REQUIRED LIBRARIES :
+---
 
-1.googleapiclient.discovery
+## Required Libraries
 
-2.streamlit
-
-3.mysql
-
-4.pymongo
-
-5.pandas
-
-
-FEATURES :
-
-Data Retrieval: Retrieve YouTube channel and video data via the YouTube Data API.
-
-Data Storage: Store retrieved data in a MongoDB database (data lake) for flexible and scalable storage.
-
-Data Migration: Migrate data from MongoDB to a MySQL database for more efficient querying and analysis.
-
-Data Search and Retrieval: Use SQL queries to search and retrieve YouTube data from the MySQL database, offering various search options.
+```bash
+pip install google-api-python-client
+pip install streamlit
+pip install mysql-connector-python
+pip install pymongo
+pip install pandas
 
 
+## Features
+
+1. **Data Retrieval**  
+   Retrieve YouTube channel and video data via the YouTube Data API.
+
+2. **Data Storage**  
+   Store retrieved data in a MongoDB database (data lake) for flexible and scalable storage.
+
+3. **Data Migration**  
+   Migrate data from MongoDB to a MySQL database for efficient querying and analysis.
+
+4. **Data Search and Retrieval**  
+   Use SQL queries to search and retrieve YouTube data from the MySQL database, offering various search options.
+
+
+## WorlfLow Overview
+
+1. **Extract Data**  
+   Extract data from YouTube using the YouTube Data API.
+
+2. **Store Data**  
+   Store the extracted data in MongoDB for scalability.
+
+3. **Transform and Migrate Data**  
+   Transform and migrate data to MySQL for efficient querying.
+
+4. **Analyze Data**  
+   Provide a user-friendly interface using Streamlit for data analysis and visualization.
+
+---
 
 Overall, the code provides a full cycle of data handling, starting from extraction from YouTube, warehousing in MongoDB, transformation, then moving to MySQL, and finally, offering a querying interface through Streamlit.
