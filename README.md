@@ -5,7 +5,6 @@ Linked in URL : https://www.linkedin.com/in/kalai-selvam-55428126a
 Problem Statement: The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels.
 
 TOOLS AND LIBRARIES USED
-This project employs the following technologies:
 
 1. Streamlit
 Streamlit library was used to create a user-friendly UI that enables users to interact with the programme and carry out data retrieval and analysis operations.
@@ -25,8 +24,6 @@ MySQL is an open-source relational database management system known for its spee
 
 REQUIRED LIBRARIES
 
-To run this project, the following Python libraries are required:
-
 googleapiclient.discovery
 streamlit
 mysql
@@ -34,13 +31,13 @@ pymongo
 pandas
 
 
-FEATURES
 
-The YouTube Data Harvesting and Warehousing application provides the following functionalities:
+FEATURES
 
 Data Retrieval: Retrieve YouTube channel and video data via the YouTube Data API.
 Data Storage: Store retrieved data in a MongoDB database (data lake) for flexible and scalable storage.
 Data Migration: Migrate data from MongoDB to a MySQL database for more efficient querying and analysis.
 Data Search and Retrieval: Use SQL queries to search and retrieve YouTube data from the MySQL database, offering various search options.
+
 
 Overall, the code provides a full cycle of data handling, starting from extraction from YouTube, warehousing in MongoDB, transformation, then moving to MySQL, and finally, offering a querying interface through Streamlit.
