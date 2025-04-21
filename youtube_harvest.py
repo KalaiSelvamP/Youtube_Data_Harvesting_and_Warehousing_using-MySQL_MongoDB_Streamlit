@@ -9,7 +9,7 @@ import streamlit as st
 
 #API KEY connection
 def Api_connect():
-    Api_id="AIzaSyB1zmAjdfBYvBHZCtTPO0DVg7CwK_FsFqw"
+    Api_id="provide your Youtube API ID here"
     api_service_name="youtube"
     api_version="v3"
     
@@ -164,12 +164,12 @@ def get_playlist_details(channel_id):
 
 
 # MongoDB connection setup
-client=pymongo.MongoClient("mongodb+srv://kalai:kalai@cluster0.k4osw7u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client=pymongo.MongoClient("give your mongodb cluster connection string here")
 db=client["Youtube_data"] # Selecting the 'Youtube_data' database in MongoDB
 coll1=db["channel_details"] # Selecting the 'channel_details' collection within the database
 
 # MySQL connection setup
-mydb=mysql.connector.connect(host="localhost",user='kalai',password="kalai",database="kalaidb")
+mydb=mysql.connector.connect(host="localhost",user='username',password="password",database="kalaidb")
 cursor=mydb.cursor() # Creating a cursor object to execute SQL queries
 
 
